@@ -1,3 +1,4 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
@@ -50,7 +51,7 @@ const Contact = () => {
                     <br /> */}
 
 
-                <input type="submit" className="btn btn-primary w-100" />
+                <Button className=" bg-green w-100 ">  <input type="submit" className="btn fw-bold" /></Button>
 
             </form>
         </div>
